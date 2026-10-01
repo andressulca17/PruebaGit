@@ -11,6 +11,6 @@ public class CuentaBancariaTest {
 
         cuenta.retirar(30);
 
-        assertEquals(999, cuenta.obtenerSaldo(), 0.001);
+        assertEquals(70, cuenta.obtenerSaldo(), 0.001);
     }
 }
